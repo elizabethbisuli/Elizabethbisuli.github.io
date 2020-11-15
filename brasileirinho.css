@@ -1,0 +1,210 @@
+/*ESTILOS COMUNS*/
+/*BARRA MENU*/
+.menu{
+	height: 120px;
+}
+
+/*BARRA MENU*/
+.navbar{
+	height: 120px;
+	background-color: #fff;
+	font-family: mostra nuova;
+}
+
+/*COR BOTÃO MENU*/
+.nav-link{
+	color: #505050;
+}	
+
+/*HOVER BOTÕES MENU*/
+.menu-hover:hover{
+	border-top: solid; 
+	border-bottom: solid;
+	border-width: 1px;
+	border-color: #2b80e6;
+	color: #505050;
+	
+}
+
+/*LOGOTIPO*/
+.logo{
+	height: 120px;
+	position: absolute;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	margin: auto;
+}
+
+/*REDES SOCIAIS*/
+.redes{
+	height: 25px;
+
+}
+/*FAIXA AMARELA*/
+.faixa{
+	height: 60px;
+	background-color: #f9c411;
+	font-family: mostra nuova;
+	font-weight: 50px;
+	color: #fff;
+	display: flex;
+}
+
+/*TEXTO FAIXA*/
+.txt-faixa{	
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+/*ESTILOS HOME*/
+/*CARROSSEL*/
+.carousel-item{
+	height: 600px;
+}
+
+/* COLUNA TEXTO SOBRE NÓS*/
+#txt-nos{
+	height: 500px;
+	background-color: #f9c411;
+}
+
+/*TEXTO SOBRE NÓS*/
+.texto-nos{
+	margin: 100px;
+	text-align: left;
+}
+
+/* COL IMAGEM RESTAURANTE*/
+#img-nos{
+	height: 500px;
+	background-color: #248a47;
+}
+
+/*IMAGEM RESTAURANTE*/
+.restaurante{
+	position: absolute;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	margin: auto;
+}
+
+/*RODAPÉ*/
+.rodape{
+	height: 120px;
+	background-color: #248a47;
+	color: #fff;
+	font-family: roboto;
+}
+
+/*COLUNA 2020*/
+.col-ano{
+	height: 120px;
+	display: flex;
+}
+
+/*TEXTO 2020*/
+.txt-ano{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+/*COLUNA DEVS*/
+.col-dev{
+	height: 120px;
+	display: flex;
+}
+
+/*TEXTO DEVS*/
+.txt-dev{
+	margin-left: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+/*COLUNA BOTÕES CARDÁPIO*/
+.bts{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	text-align: center;
+}
+
+/*BOTÕES CARDÁPIO*/
+.btn-sel{
+	display: inline-block;
+    font-weight: 400;
+    text-align: center;   
+    vertical-align: middle;
+    user-select: none;
+    border: 1px solid #2b80e6;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    color: #505050;
+    margin-left: 30px;
+    background-color: #fff;
+}
+
+/*HOVER BOTÕES CARDÁPIO*/
+.btn-sel:hover{
+	border: 1px solid #2b80e6;
+	background-color: #efffff;
+	color: #505050;
+	text-decoration: none;
+}
+/*BOTÃO CARDÁPIO DESATIVADO*/
+.disabled{
+	border: solid 1px #2b80e6;
+	background-color: #2b80e6;
+	color: #fff;
+	pointer-events: none;
+}
+
+/*CARDS*/
+.card{
+	margin-bottom: 30px;
+}
+
+.card-img-top{
+	height: 200px;
+}
+
+.col-pgt{
+	padding: 40px;
+	padding: 40px;
+	background-color: #248a47;
+	display: flex;
+
+}
+.pgt{
+	display: flex;
+	height: 40px;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+
+.faixa-pgt{
+	height: 60px;
+	background-color: #248a47;
+	font-family: mostra nuova;
+	color: #fff;
+	display: flex;
+	margin-top: 50px;
+}
+
+.txt-pgt{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+
+
