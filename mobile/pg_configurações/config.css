@@ -12,6 +12,11 @@ hr {
   width: 98%;
 }
 
+#logoSol {
+  float: right;
+  height: 50px;
+}
+
 .barraTopo {
   display: flex;
   justify-content: space-between;
@@ -20,6 +25,7 @@ hr {
 
 #botaoConfig {
   float: right;
+  height: 50px; 
 }
 
 

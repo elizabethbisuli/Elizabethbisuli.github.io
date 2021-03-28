@@ -12,16 +12,20 @@ hr {
   width: 98%;
 }
 
+#logoSol {
+  float: right;
+  height: 50px;
+}
 .barraTopo {
   display: flex;
   justify-content: space-between;
   margin: 3px;
 }
 
-#botaoConfig {
+#seta {
   float: right;
+  height: 50px;
 }
-
 
 #titulo {
   font-family: 'Josefin Slab';
@@ -29,7 +33,7 @@ hr {
   font-size: 230%;
   margin-left: 18px;
   width: 100%;
-  margin-top: 15px;
+  margin-top: 8px;
 }
 
 #PoliticaPrivacidade {
@@ -43,11 +47,11 @@ hr {
 }
 
 #texto {
-  width: 900px; 
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 10%;
+  margin-right: 10%;
   font-family: 'Oswald';
-  font-size: 150%;
+  font-weight: 300;
+  text-align: justify;
 }
 
 @media screen and (max-width: 321px) {
