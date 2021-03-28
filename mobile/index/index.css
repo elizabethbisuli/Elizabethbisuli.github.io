@@ -5,7 +5,7 @@ html,center,body {
 
 .circulologo {
   align-items: center;
-  margin-top: 167px;
+  margin-top: 147px;
   height: 180px;
   width: 180px;
   background-color: #fff;
@@ -23,8 +23,19 @@ html,center,body {
   align-items: flex-start;
   font-size: 64px;
   width: 100%;
-  margin-top: 50px;
-  margin-bottom: 45px;
+  margin-top: 20px;
+  margin-bottom: 170px;
+}
+
+#spiceGirls {
+  font-family: 'Oswald';
+  font-weight: 200;
+  align-items: flex-start;
+  font-size: 20px;
+  width: 100%;
+  margin-top: 0px;
+  margin-bottom: 15px;
+  text-align: center;
 }
 
 #logoSol{

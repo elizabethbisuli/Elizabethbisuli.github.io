@@ -18,8 +18,14 @@ hr {
   margin: 3px;
 }
 
-#botaoVoltar {
+#logoSol {
   float: right;
+  height: 50px;
+}
+
+#seta {
+  float: right;
+  height: 50px;
 }
 
 #titulo {
@@ -28,7 +34,7 @@ hr {
   font-size: 230%;
   margin-left: 18px;
   width: 100%;
-  margin-top: 15px;
+  margin-top: 8px;
 }
 
 #textoTitulo{
