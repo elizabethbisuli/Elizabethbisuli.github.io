@@ -1,0 +1,67 @@
+html,center,body {
+  width: 100%;
+  margin: 0px;
+}
+
+hr {
+  width: 450px;
+  height: 2px;
+  border: 0;
+  border-top: 2px solid #bcbcbc;
+  padding: 0;
+  width: 98%;
+}
+
+.barraTopo {
+  display: flex;
+  justify-content: space-between;
+  margin: 3px;
+}
+
+#botaoConfig {
+  float: right;
+}
+
+
+#titulo {
+  font-family: 'Josefin Slab';
+  align-items: flex-start;
+  font-size: 230%;
+  margin-left: 18px;
+  width: 100%;
+  margin-top: 15px;
+}
+
+#PoliticaPrivacidade {
+  width: 100%;
+  background-color: #90FF7E;
+  font-family: 'Oswald';
+  font-size: 200%;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  text-align: center;
+}
+
+#texto {
+  width: 900px; 
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Oswald';
+  font-size: 150%;
+}
+
+@media screen and (max-width: 321px) {
+  #PoliticaPrivacidade {
+    margin-top: 20px;
+    margin-bottom: 5px;
+ }
+  #logoSol,#botaoConfig {
+    height: 40px;
+  }
+  #titulo {
+    font-size: 180%;
+  }
+  #texto {
+    font-size: 100%;
+  }
+}
