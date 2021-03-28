@@ -12,6 +12,11 @@ hr {
   width: 98%;
 }
 
+#logoSol {
+  float: right;
+  height: 50px;
+}
+
 .barraTopo {
   display: flex;
   justify-content: space-between;
@@ -20,6 +25,7 @@ hr {
 
 #botaoConfig {
   float: right;
+  height: 50px; 
 }
 
 
@@ -29,7 +35,7 @@ hr {
   font-size: 230%;
   margin-left: 18px;
   width: 100%;
-  margin-top: 15px;
+  margin-top: 8px;
 }
 
 #cntrlRaios {
