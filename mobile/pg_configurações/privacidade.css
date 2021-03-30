@@ -16,11 +16,15 @@ hr {
   float: right;
   height: 50px;
 }
-
 .barraTopo {
   display: flex;
   justify-content: space-between;
   margin: 3px;
+}
+
+#seta {
+  float: right;
+  height: 50px;
 }
 
 #titulo {
@@ -32,36 +36,29 @@ hr {
   margin-top: 8px;
 }
 
-#pg_configurações {
+#PoliticaPrivacidade {
   width: 100%;
+  background-color: #90FF7E;
   font-family: 'Oswald';
   font-size: 200%;
-  margin-top: 0px;
-  margin-bottom: 60px;
-  text-align: center;
-}
-
-.btn {
-  color: black;
-  font-size: 165%;
-  display: block;
-  text-decoration: none;
-  text-align: center;
+  margin-top: 50px;
   margin-bottom: 50px;
-  background: #90FF7E;
-  font-family: "Oswald"
-
+  text-align: center;
 }
 
-.btn:hover{
-  color: white;
-
-} 
+}
+#texto {
+  text-align: justify;
+  font-family: 'Oswald';
+  font-weight: 300; /*Light*/
+  margin-left: 10%;
+  margin-right: 10%;
+}
 
 @media screen and (max-width: 321px) {
-  #pg_configurações {
+  #PoliticaPrivacidade {
     margin-top: 20px;
-    margin-bottom: 40px;
+    margin-bottom: 5px;
  }
   #logoSol,#botaoConfig {
     height: 40px;
@@ -69,5 +66,7 @@ hr {
   #titulo {
     font-size: 180%;
   }
-
+  #texto {
+    font-size: 100%;
+  }
 }

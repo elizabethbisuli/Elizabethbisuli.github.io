@@ -16,6 +16,7 @@ hr {
   float: right;
   height: 50px;
 }
+
 .barraTopo {
   display: flex;
   justify-content: space-between;
@@ -27,6 +28,7 @@ hr {
   height: 50px;
 }
 
+
 #titulo {
   font-family: 'Josefin Slab';
   align-items: flex-start;
@@ -36,7 +38,11 @@ hr {
   margin-top: 8px;
 }
 
-#PoliticaPrivacidade {
+/*.espacoBranco {
+  margin: 10%;
+}*/
+
+#faixaManual {
   width: 100%;
   background-color: #90FF7E;
   font-family: 'Oswald';
@@ -46,27 +52,59 @@ hr {
   text-align: center;
 }
 
-}
-#texto {
+.h1Manual {
   text-align: justify;
   font-family: 'Oswald';
-  font-weight: 300; 
+  font-weight: 300; /*Light*/
+  font-size: 30px;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 0%;
+}
+
+.h3Manual {
+  text-align: justify;
+  font-family: 'Oswald';
+  font-weight: 400; /*Regular*/
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 0%;
+}
+
+.textoManual {
+  text-align: justify;
+  font-family: 'Oswald';
+  font-weight: 300; /*Light*/
   margin-left: 10%;
   margin-right: 10%;
 }
 
+/*Font-weight 'Oswald'= 200: Extra-Light
+                        300: Light
+                        400: Regular
+                        500: Medium
+                        600: Semi-bold
+                        700: Bold*/
+
+
 @media screen and (max-width: 321px) {
-  #PoliticaPrivacidade {
+  #cntrlRaios {
     margin-top: 20px;
     margin-bottom: 5px;
- }
-  #logoSol,#botaoConfig {
+  }
+  #containerCirculo {
+    margin-top: 20px;
+  }
+  #logoSol,#seta {
     height: 40px;
   }
   #titulo {
     font-size: 180%;
   }
-  #texto {
-    font-size: 100%;
+  #textoIndiceUV {
+    font-size: 160%;
+  }
+  #fotoIndiceUV {
+    height: 35px;
   }
 }
