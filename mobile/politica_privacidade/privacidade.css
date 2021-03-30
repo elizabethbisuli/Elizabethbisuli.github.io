@@ -40,18 +40,23 @@ hr {
   width: 100%;
   background-color: #90FF7E;
   font-family: 'Oswald';
-  font-size: 200%;
-  margin-top: 0px;
+  font-size: 36px;
+  margin-top: 50px;
   margin-bottom: 0px;
   text-align: center;
 }
 
 #texto {
-  margin-left: 10%;
-  margin-right: 10%;
-  font-family: 'Oswald';
-  font-weight: 300;
+  
   text-align: justify;
+  margin-top: 50px;
+  margin-left: 40px;
+  margin-right: 40px;
+  font-family: 'Oswald';
+  font-weight: 200;
+  font-style: normal;
+  font-size: 22px;
+  
 }
 
 @media screen and (max-width: 321px) {
