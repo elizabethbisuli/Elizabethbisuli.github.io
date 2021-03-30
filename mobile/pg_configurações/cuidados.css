@@ -1,0 +1,187 @@
+html,center,body {
+  width: 100%;
+  margin: 0px;
+}
+
+hr {
+  width: 450px;
+  height: 2px;
+  border: 0;
+  border-top: 2px solid #bcbcbc;
+  padding: 0;
+  width: 98%;
+}
+
+.barraTopo {
+  display: flex;
+  justify-content: space-between;
+  margin: 3px;
+}
+
+#logoSol {
+  float: right;
+  height: 50px;
+}
+
+#seta {
+  float: right;
+  height: 50px;
+}
+
+#titulo {
+  font-family: 'Josefin Slab';
+  align-items: flex-start;
+  font-size: 230%;
+  margin-left: 18px;
+  width: 100%;
+  margin-top: 8px;
+}
+
+#textoTitulo{
+  text-align: center;
+  background-color: #90FF7E;
+  font-family: 'Oswald';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 36px;
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 0px;
+}
+
+#textoSub {
+  text-align: center;
+  margin-top: 25px;
+  font-family: 'Oswald';
+  font-weight: 300;
+  font-style: normal;
+  font-size: 22px;
+  margin-bottom: 10px;
+  line-height: 10px;
+}
+
+#texto1 {
+  text-align: justify;
+  margin-top: 50px;
+  margin-left: 40px;
+  margin-right: 40px;
+  font-family: 'Oswald';
+  font-weight: 300;
+  font-style: normal;
+  font-size: 24px;
+
+}
+
+#texto2 {
+  text-align: justify;
+  margin-left: 40px;
+  margin-right: 40px;
+  font-family: 'Oswald';
+  font-weight: 200;
+  font-style: normal;
+  font-size: 22px;
+
+}
+
+#texto3 {
+  text-align: justify;
+  margin-left: 40px;
+  margin-right: 40px;
+  font-family: 'Oswald';
+  font-weight: 300;
+  font-style: normal;
+  font-size: 24px;
+
+}
+
+#texto4 {
+  text-align: justify;
+  margin-left: 40px;
+  margin-right: 40px;
+  font-family: 'Oswald';
+  font-weight: 200;
+  font-style: normal;
+  font-size: 22px;
+
+}
+
+#texto5 {
+  text-align: justify;
+  margin-left: 40px;
+  margin-right: 40px;
+  font-family: 'Oswald';
+  font-weight: 300;
+  font-style: normal;
+  font-size: 24px;
+
+}
+
+#texto6 {
+  text-align: justify;
+  margin-left: 40px;
+  margin-right: 40px;
+  font-family: 'Oswald';
+  font-weight: 200;
+  font-style: normal;
+  font-size: 22px;
+
+}
+
+#texto7 {
+  text-align: justify;
+  margin-left: 40px;
+  margin-right: 40px;
+  font-family: 'Oswald';
+  font-weight: 300;
+  font-style: normal;
+  font-size: 24px;
+
+}
+
+#texto8 {
+  text-align: justify;
+  margin-left: 40px;
+  margin-right: 40px;
+  font-family: 'Oswald';
+  font-weight: 200;
+  font-style: normal;
+  font-size: 22px;
+
+}
+
+#texto9 {
+  text-align: justify;
+  margin-left: 40px;
+  margin-right: 40px;
+  font-family: 'Oswald';
+  font-weight: 300;
+  font-style: normal;
+  font-size: 24px;
+
+}
+
+#texto10 {
+  text-align: justify;
+  margin-bottom: 40px;
+  margin-left: 40px;
+  margin-right: 40px;
+  font-family: 'Oswald';
+  font-weight: 200;
+  font-style: normal;
+  font-size: 22px;
+
+}
+
+@media screen and (max-width: 321px) {
+  #textoSub {
+    margin-top: 20px;
+    margin-bottom: 5px;
+  }
+  #logoSol,#botaoVoltar {
+    height: 40px;
+  }
+  #titulo {
+    font-size: 180%;
+  }
+
+}

@@ -1,0 +1,120 @@
+html,center,body {
+  width: 100%;
+  margin: 0px;
+}
+
+hr {
+  width: 450px;
+  height: 2px;
+  border: 0;
+  border-top: 2px solid #bcbcbc;
+  padding: 0;
+  width: 98%;
+}
+
+#logoSol {
+  float: right;
+  height: 50px;
+}
+
+.barraTopo {
+  display: flex;
+  justify-content: space-between;
+  margin: 3px;
+}
+
+#botaoConfig {
+  float: right;
+  height: 50px; 
+}
+
+
+#titulo {
+  font-family: 'Josefin Slab';
+  align-items: flex-start;
+  font-size: 230%;
+  margin-left: 18px;
+  width: 100%;
+  margin-top: 8px;
+}
+
+#cntrlRaios {
+  text-align: center;
+  margin-top: 35px;
+  font-family: 'Oswald';
+  font-size: 180%;
+  margin-bottom: 10px;
+}
+
+#indice {
+  text-align: center;
+  margin-top: 0px;
+  font-family: 'Oswald';
+  font-size: 150%;
+}
+
+.circuloIndicador {
+  height: 180px;
+  width: 180px;
+  background-color: #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-style: solid;
+  border: 15px solid #FF2929;
+}
+
+#containerCirculo {
+  margin-top: 40px;
+}
+
+#numeroIndiceUV {
+  width: 100%;
+  text-align: center;
+  font-family: 'Roboto';
+  font-size: 300%;
+}
+
+#fotoIndiceUV {
+  margin-top: 20px;
+}
+
+#textoIndiceUV {
+  font-family: 'Oswald';
+  font-weight: bold;
+  font-size: 210%;
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+
+#textoRecomendacao {
+  width: 100%;
+  background-color: #FF2929;
+  font-family: 'Oswald';
+  font-size: 200%;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+@media screen and (max-width: 321px) {
+  #cntrlRaios {
+    margin-top: 20px;
+    margin-bottom: 5px;
+  }
+  #containerCirculo {
+    margin-top: 20px;
+  }
+  #logoSol,#botaoConfig {
+    height: 40px;
+  }
+  #titulo {
+    font-size: 180%;
+  }
+  #textoIndiceUV {
+    font-size: 160%;
+  }
+  #fotoIndiceUV {
+    height: 35px;
+  }
+}

@@ -28,6 +28,7 @@ hr {
   height: 50px;
 }
 
+
 #titulo {
   font-family: 'Josefin Slab';
   align-items: flex-start;
@@ -37,11 +38,11 @@ hr {
   margin-top: 8px;
 }
 
-.espacoBranco {
+/*.espacoBranco {
   margin: 10%;
-}
+}*/
 
-#faixaAcessibilidade {
+#faixaManual {
   width: 100%;
   background-color: #90FF7E;
   font-family: 'Oswald';
@@ -51,15 +52,26 @@ hr {
   text-align: center;
 }
 
-.tituloAcessibilidade {
+.h1Manual {
+  text-align: justify;
+  font-family: 'Oswald';
+  font-weight: 300; /*Light*/
+  font-size: 30px;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 0%;
+}
+
+.h3Manual {
   text-align: justify;
   font-family: 'Oswald';
   font-weight: 400; /*Regular*/
   margin-left: 10%;
   margin-right: 10%;
+  margin-top: 0%;
 }
 
-.textoAcessibilidade {
+.textoManual {
   text-align: justify;
   font-family: 'Oswald';
   font-weight: 300; /*Light*/
@@ -74,66 +86,6 @@ hr {
                         600: Semi-bold
                         700: Bold*/
 
-
-}
-
-.main{
-  text-align: center;
-  font-size: 180%;
-}
-.liga-desliga_checkbox {
-  position: absolute;
-  left: -9999px;
-}
-.liga-desliga_botão {
-  display: inline-block;
-  vertical-align: middle;
-  position: relative;
-  cursor: pointer;
-}
-.liga-desliga_botão::before,
-.liga-desliga_botão::after
-{
-  content: " ";
-  transition: all 0.3 ease;
-}
-
-.liga-desliga_botão::before {
-  display: inline-block;
-  width: 20px;
-  height: 10px;
-  background: #90FF7E;
-  border-radius: 10px;
-}
-
-.liga-desliga_botão::after {
-  position: absolute;
-  top: 0.025px;
-  left: 0.025px;
-  width: 0.95px;
-  height: 0.95px;
-  border-radius: 100%;
-}
-
-.liga-desliga_checkbox:checkbox + .liga-desliga_botão::before {
-  background: #90FF7E;
-}
-.liga-desliga_checkbox:checkbox + .liga-desliga_botão::after {
-  left: 1.025px;
-}
- 
- </style>
- </head>
- <body>
-
-<main>
-        <div class="liga-desliga">
-          <input type="checkbox" class="liga-desliga_checkbox" id="liga-desliga">
-          <label for="liga-desliga" class="liga-desliga_botão"></label>
-        </div>
-</main>
-</body>
-</html>
 
 @media screen and (max-width: 321px) {
   #cntrlRaios {
