@@ -28,7 +28,6 @@ hr {
   height: 50px;
 }
 
-
 #titulo {
   font-family: 'Josefin Slab';
   align-items: flex-start;
@@ -38,11 +37,11 @@ hr {
   margin-top: 8px;
 }
 
-/*.espacoBranco {
+.espacoBranco {
   margin: 10%;
-}*/
+}
 
-#faixaManual {
+#faixaAcessibilidade {
   width: 100%;
   background-color: #90FF7E;
   font-family: 'Oswald';
@@ -52,31 +51,22 @@ hr {
   text-align: center;
 }
 
-.h1Manual {
-  text-align: justify;
-  font-family: 'Oswald';
-  font-weight: 300; /*Light*/
-  font-size: 30px;
-  margin-left: 10%;
-  margin-right: 10%;
-  margin-bottom: 0%;
-}
-
-.h3Manual {
+.tituloAcessibilidade {
   text-align: justify;
   font-family: 'Oswald';
   font-weight: 400; /*Regular*/
   margin-left: 10%;
   margin-right: 10%;
-  margin-top: 0%;
+  font-size: 24px;
 }
 
-.textoManual {
+.textoAcessibilidade {
   text-align: justify;
   font-family: 'Oswald';
   font-weight: 300; /*Light*/
   margin-left: 10%;
   margin-right: 10%;
+  font-size: 22px;
 }
 
 /*Font-weight 'Oswald'= 200: Extra-Light
@@ -86,6 +76,12 @@ hr {
                         600: Semi-bold
                         700: Bold*/
 
+#botaoLiga {
+  display: block;
+  height: 60px;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 @media screen and (max-width: 321px) {
   #cntrlRaios {

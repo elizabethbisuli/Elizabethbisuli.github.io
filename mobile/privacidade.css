@@ -16,7 +16,6 @@ hr {
   float: right;
   height: 50px;
 }
-
 .barraTopo {
   display: flex;
   justify-content: space-between;
@@ -37,11 +36,7 @@ hr {
   margin-top: 8px;
 }
 
-.espacoBranco {
-  margin: 10%;
-}
-
-#faixaAcessibilidade {
+#PoliticaPrivacidade {
   width: 100%;
   background-color: #90FF7E;
   font-family: 'Oswald';
@@ -51,54 +46,27 @@ hr {
   text-align: center;
 }
 
-.tituloAcessibilidade {
-  text-align: justify;
-  font-family: 'Oswald';
-  font-weight: 400; /*Regular*/
-  margin-left: 10%;
-  margin-right: 10%;
-}
-
-.textoAcessibilidade {
+#texto {
   text-align: justify;
   font-family: 'Oswald';
   font-weight: 300; /*Light*/
   margin-left: 10%;
   margin-right: 10%;
-}
-
-/*Font-weight 'Oswald'= 200: Extra-Light
-                        300: Light
-                        400: Regular
-                        500: Medium
-                        600: Semi-bold
-                        700: Bold*/
-
-#botaoLiga {
-  display: block;
-  height: 60px;
-  margin-left: auto;
-  margin-right: auto;
+  font-size: 22px;
 }
 
 @media screen and (max-width: 321px) {
-  #cntrlRaios {
+  #PoliticaPrivacidade {
     margin-top: 20px;
     margin-bottom: 5px;
-  }
-  #containerCirculo {
-    margin-top: 20px;
-  }
-  #logoSol,#seta {
+ }
+  #logoSol,#botaoConfig {
     height: 40px;
   }
   #titulo {
     font-size: 180%;
   }
-  #textoIndiceUV {
-    font-size: 160%;
-  }
-  #fotoIndiceUV {
-    height: 35px;
+  #texto {
+    font-size: 100%;
   }
 }
