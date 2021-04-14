@@ -3,6 +3,32 @@ html,center,body {
   margin: 0px;
 }
 
+.splash-screen {
+  background: white; 
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  opacity: 1;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 100;
+  transition: all 0.5s ease-in-out;
+  transform: scale(1);
+}
+
+.splash-screen-out {
+  opacity: 0;
+  transform: scale(4);
+}
+
+.splash-screen-none {
+  display: none;
+}
+
 .circulologo {
   align-items: center;
   margin-top: 147px;
@@ -19,8 +45,8 @@ html,center,body {
 }
 
 #textoSUNDAY {
+  align-items: center;
   font-family: 'Josefin Slab';
-  align-items: flex-start;
   font-size: 64px;
   width: 100%;
   margin-top: 20px;
@@ -28,17 +54,16 @@ html,center,body {
 }
 
 #spiceGirls {
+  align-items: center;
   font-family: 'Oswald';
   font-weight: 200;
-  align-items: flex-start;
   font-size: 20px;
   width: 100%;
-  margin-top: 0px;
+  margin-top: 100px;
   margin-bottom: 15px;
   text-align: center;
 }
 
 #logoSol{
-  align-items: flex-start;
   margin-left: 40px;
 }
