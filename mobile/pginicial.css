@@ -97,7 +97,7 @@ hr {
   font-style: normal;
   font-size: 180%;
   width: 100%;
-  height: 100px;
+  height: 82px;
   line-height: 100px;
   margin-top: 0px;
   margin-bottom: 0px;
@@ -106,15 +106,13 @@ hr {
   background: white; 
   position: absolute;
   display: flex;
-  justify-content: space-around;
-  align-items: center;
   color: black;
   opacity: 1;
   top: 0;
   left: 0;
   width: 100vw;
   height: 100vh;
-  z-index: 100;
+  z-index: 100%;
   transition: all 0.5s ease-in-out;
   transform: scale(1);
 }
@@ -129,42 +127,37 @@ hr {
 }
 
 .circulologo {
-  align-items: center;
-  margin-top: 147px;
+  margin-top: 100px;
   height: 180px;
   width: 180px;
   background-color: #fff;
-  display: flex;
-  justify-content: space-between;
   border: 15px double transparent;
   border-radius: 50%;
   background-image: linear-gradient( 180deg, #FF2929 0%, #FF9029 25.52%, #FFEA29 48.96%, #C9F451 72.92%, #7AFF64 100%);
   background-origin: border-box;
   background-clip: content-box, border-box;
+  margin-left: 20px;
 }
 
 #textoSUNDAY {
-  align-items: center;
   font-family: 'Josefin Slab';
   font-size: 64px;
   width: 100%;
   margin-top: 20px;
   margin-bottom: 170px;
+  margin-right: 160px;
 }
 
 #spiceGirls {
-  align-items: center;
   font-family: 'Oswald';
   font-weight: 200;
   font-size: 20px;
-  width: 100%;
-  margin-top: 100px;
-  margin-bottom: 15px;
-  text-align: center;
+  margin-top: 500px;
 }
 
 #Sol{
-  margin-left: 40px;
+  margin-left: 10px;
+  margin-top: 40px;
 }
 
 @media screen and (max-width: 321px) {
