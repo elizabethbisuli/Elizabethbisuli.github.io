@@ -75,6 +75,7 @@ hr {
   background-image: linear-gradient(white, white), radial-gradient(circle at top , #FF2929, yellow,#90FF7E);
   background-origin: border-box;
   background-clip: content-box, border-box;
+  margin-bottom: 60px;
 }
 
 #containerCirculo {
@@ -88,6 +89,27 @@ hr {
   font-size: 300%;
 }
 
+.botao{
+  background-color: #90FF7E;
+    height: 50px;
+    width: 40vw;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    border-radius: 5px;
+}
+
+.btn{
+    padding: 4px;
+    color:#000000;
+    font-family: 'Oswald';
+    font-size: 20px;
+    text-decoration: none;
+}
 
 @media screen and (max-width: 321px) {
   #cntrlRaios {
