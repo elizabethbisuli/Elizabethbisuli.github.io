@@ -41,15 +41,15 @@ hr {
 #pg_configurações {
   width: 100%;
   font-family: 'Oswald';
-  font-size: 200%;
-  margin-top: 0px;
-  margin-bottom: 60px;
+  font-size: 210%;
+  margin-top: 20px;
+  margin-bottom: 30px;
   text-align: center;
 }
 
 .btn {
   color: black;
-  font-size: 165%;
+  font-size: 180%;
   text-decoration: none;
   display: block;
   text-align: center;
@@ -67,13 +67,17 @@ hr {
 @media screen and (max-width: 321px) {
   #pg_configurações {
     margin-top: 20px;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
+    font-size: 180%;
  }
-  #logoSol,#botaoConfig {
+  #logoSol,#botaoConfig,#botaoVoltar {
     height: 40px;
   }
   #titulo {
-    font-size: 180%;
+    font-size: 200%;
+  }
+  .btn {
+    font-size: 150%;
   }
 
 }

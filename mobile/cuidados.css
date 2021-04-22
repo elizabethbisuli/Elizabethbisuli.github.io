@@ -37,36 +37,34 @@ hr {
   margin-top: 8px;
 }
 
-#textoTitulo{
+#textoTitulo {
   text-align: center;
   background-color: #90FF7E;
   font-family: 'Oswald';
   font-weight: normal;
   font-style: normal;
-  font-size: 200%;
+  font-size: 210%;
   width: 100%;
-  margin-top: 50px;
-  margin-bottom: 0px;
+  margin-top: 20px;
+  margin-bottom: 30px;
 }
 
-#textoSub {
+/*#textoSub {
   text-align: center;
-  margin-top: 25px;
   font-family: 'Oswald';
-  font-weight: 300;
+  font-weight: 200;
   font-style: normal;
-  font-size: 22px;
-  margin-bottom: 10px;
-  line-height: 10px;
-}
+  font-size: 24px;
+  line-height: 31px;
+}*/
 
 #texto1 {
   text-align: justify;
-  margin-top: 50px;
-  margin-left: 40px;
-  margin-right: 40px;
+  margin-top: 10%;
+  margin-left: 10%;
+  margin-right: 10%;
   font-family: 'Oswald';
-  font-weight: 300;
+  font-weight: 400;
   font-style: normal;
   font-size: 24px;
 
@@ -74,10 +72,10 @@ hr {
 
 #texto2 {
   text-align: justify;
-  margin-left: 40px;
-  margin-right: 40px;
+  margin-left: 10%;
+  margin-right: 10%;
   font-family: 'Oswald';
-  font-weight: 200;
+  font-weight: 300;
   font-style: normal;
   font-size: 22px;
 
@@ -85,10 +83,10 @@ hr {
 
 #texto3 {
   text-align: justify;
-  margin-left: 40px;
-  margin-right: 40px;
+  margin-left: 10%;
+  margin-right: 10%;
   font-family: 'Oswald';
-  font-weight: 300;
+  font-weight: 400;
   font-style: normal;
   font-size: 24px;
 
@@ -96,10 +94,10 @@ hr {
 
 #texto4 {
   text-align: justify;
-  margin-left: 40px;
-  margin-right: 40px;
+  margin-left: 10%;
+  margin-right: 10%;
   font-family: 'Oswald';
-  font-weight: 200;
+  font-weight: 300;
   font-style: normal;
   font-size: 22px;
 
@@ -107,10 +105,10 @@ hr {
 
 #texto5 {
   text-align: justify;
-  margin-left: 40px;
-  margin-right: 40px;
+  margin-left: 10%;
+  margin-right: 10%;
   font-family: 'Oswald';
-  font-weight: 300;
+  font-weight: 400;
   font-style: normal;
   font-size: 24px;
 
@@ -118,10 +116,10 @@ hr {
 
 #texto6 {
   text-align: justify;
-  margin-left: 40px;
-  margin-right: 40px;
+  margin-left: 10%;
+  margin-right: 10%;
   font-family: 'Oswald';
-  font-weight: 200;
+  font-weight: 300;
   font-style: normal;
   font-size: 22px;
 
@@ -129,10 +127,10 @@ hr {
 
 #texto7 {
   text-align: justify;
-  margin-left: 40px;
-  margin-right: 40px;
+  margin-left: 10%;
+  margin-right: 10%;
   font-family: 'Oswald';
-  font-weight: 300;
+  font-weight: 400;
   font-style: normal;
   font-size: 24px;
 
@@ -140,10 +138,10 @@ hr {
 
 #texto8 {
   text-align: justify;
-  margin-left: 40px;
-  margin-right: 40px;
+  margin-left: 10%;
+  margin-right: 10%;
   font-family: 'Oswald';
-  font-weight: 200;
+  font-weight: 300;
   font-style: normal;
   font-size: 22px;
 
@@ -151,10 +149,10 @@ hr {
 
 #texto9 {
   text-align: justify;
-  margin-left: 40px;
-  margin-right: 40px;
+  margin-left: 10%;
+  margin-right: 10%;
   font-family: 'Oswald';
-  font-weight: 300;
+  font-weight: 400;
   font-style: normal;
   font-size: 24px;
 
@@ -162,11 +160,11 @@ hr {
 
 #texto10 {
   text-align: justify;
-  margin-bottom: 40px;
-  margin-left: 40px;
+  margin-bottom: 10%;
+  margin-left: 10%;
   margin-right: 40px;
   font-family: 'Oswald';
-  font-weight: 200;
+  font-weight: 300;
   font-style: normal;
   font-size: 22px;
 
@@ -174,14 +172,22 @@ hr {
 
 @media screen and (max-width: 321px) {
   #textoSub {
-    margin-top: 20px;
-    margin-bottom: 5px;
+    font-size: 21px;
   }
-  #logoSol,#botaoVoltar {
+  #logoSol,#botaoVoltar,#seta {
     height: 40px;
   }
   #titulo {
+    font-size: 200%;
+  }
+  #textoTitulo {
     font-size: 180%;
+  }
+  #texto1,#texto3,#texto5,#texto7,#texto9 {
+    font-size: 21px;
+  }
+   #texto2,#texto4,#texto6,#texto8,#texto10 {
+    font-size: 19px;
   }
 
 }

@@ -42,7 +42,7 @@ hr {
   text-align: center;
   margin-top: 35px;
   font-family: 'Oswald';
-  font-size: 180%;
+  font-size: 210%;
   margin-bottom: 10px;
 }
 
@@ -50,7 +50,7 @@ hr {
   text-align: center;
   margin-top: 0px;
   font-family: 'Oswald';
-  font-size: 150%;
+  font-size: 180%;
 }
 
 .circuloIndicador {
@@ -101,6 +101,10 @@ hr {
   #cntrlRaios {
     margin-top: 20px;
     margin-bottom: 5px;
+    font-size: 180%;
+  }
+  #indice {
+    font-size: 150%;
   }
   #containerCirculo {
     margin-top: 20px;
@@ -109,7 +113,7 @@ hr {
     height: 40px;
   }
   #titulo {
-    font-size: 180%;
+    font-size: 200%;
   }
   #textoIndiceUV {
     font-size: 160%;
