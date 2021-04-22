@@ -40,11 +40,23 @@
            	</div>
 
            	<div class="botao">
-				<a class="btn" href="#">Calculando...</a>
+				<a class="btn" id="nome" onclick="Calcular" href="#"> Calculando... </a>
 			</div>
 
-           	<!--<p id= "Calculando">Calculando...</p>-->
-               	
+<script>
+	window.onload = () => {
+	nome_aleatorio();
+}
+function nome_aleatorio() {
+	let lista_de_nomes = ["uvbaixo.html", "uvalto.html", "uvmedio.html"];
+	let tamanho = lista_de_nomes.length;
+	let posicao = Math.floor(Math.random() * tamanho); 
+	let nome = lista_de_nomes[posicao];
+
+	document.querySelector("#nome").href = nome;
+}
+</script>
+           	               	
        	</center>
 
 	</body>
