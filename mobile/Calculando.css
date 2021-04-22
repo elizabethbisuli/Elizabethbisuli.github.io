@@ -52,7 +52,7 @@ hr {
   text-align: center;
   margin-top: 35px;
   font-family: 'Oswald';
-  font-size: 180%;
+  font-size: 210%;
   margin-bottom: 10px;
 }
 
@@ -60,7 +60,7 @@ hr {
   text-align: center;
   margin-top: 0px;
   font-family: 'Oswald';
-  font-size: 150%;
+  font-size: 180%;
 }
 
 .circuloIndicador {
@@ -89,10 +89,10 @@ hr {
   font-size: 300%;
 }
 
-.botao{
+.botao {
   background-color: #90FF7E;
-    height: 50px;
-    width: 40vw;
+    height: 70px;
+    width: 70vw;
     margin: 5px;
     display: flex;
     flex-direction: column;
@@ -100,14 +100,14 @@ hr {
     justify-content: center;
     align-items: center;
     align-content: center;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
-.btn{
-    padding: 4px;
+.btn {
+    padding: 1px;
     color:#000000;
     font-family: 'Oswald';
-    font-size: 20px;
+    font-size: 24px;
     text-decoration: none;
 }
 
@@ -115,20 +115,25 @@ hr {
   #cntrlRaios {
     margin-top: 20px;
     margin-bottom: 5px;
+    font-size: 180%;
+  }
+  #indice {
+    font-size: 150%;
   }
   #containerCirculo {
     margin-top: 20px;
   }
   #logoSol,#botaoConfig {
-    height: 50px;
+    height: 40px;
   }
   #titulo {
-    font-size: 180%;
+    font-size: 200%;
   }
-  #textoOI {
-    font-size: 160%;
+  .botao{
+    height: 50px;
+    width: 50vw;
   }
-  #fotoIndiceUV {
-    height: 35px;
+  .btn {
+    font-size: 20px;
   }
 }

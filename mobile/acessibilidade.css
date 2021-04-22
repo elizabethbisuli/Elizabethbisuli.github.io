@@ -45,9 +45,9 @@ hr {
   width: 100%;
   background-color: #90FF7E;
   font-family: 'Oswald';
-  font-size: 200%;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  font-size: 210%;
+  margin-top: 20px;
+  margin-bottom: 30px;
   text-align: center;
 }
 
@@ -95,6 +95,9 @@ hr {
     height: 40px;
   }
   #titulo {
+    font-size: 200%;
+  }
+  #faixaAcessibilidade {
     font-size: 180%;
   }
   #textoIndiceUV {
@@ -102,5 +105,11 @@ hr {
   }
   #fotoIndiceUV {
     height: 35px;
+  }
+  .tituloAcessibilidade {
+    font-size: 21px;
+  }
+  .textoAcessibilidade {
+    font-size: 19px;
   }
 }

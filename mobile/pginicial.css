@@ -44,7 +44,7 @@ hr {
   text-align: center;
   margin-top: 35px;
   font-family: 'Oswald';
-  font-size: 180%;
+  font-size: 210%;
   margin-bottom: 10px;
 }
 
@@ -52,7 +52,7 @@ hr {
   text-align: center;
   margin-top: 0px;
   font-family: 'Oswald';
-  font-size: 150%;
+  font-size: 180%;
 }
 
 .circuloIndicador {
@@ -83,7 +83,7 @@ hr {
 #textoOI {
   font-family: 'Oswald';
   font-style: normal;
-  font-size: 250%;
+  font-size: 210%;
   margin-top: 30px;
   margin-bottom: 30px;
 }
@@ -92,12 +92,13 @@ hr {
   background-color: #90FF7E;
   font-family: 'Oswald';
   font-style: normal;
-  font-size: 180%;
+  font-size: 190%;
   width: 100%;
-  height: 68px;
-  line-height: 230%;
+  height: 78px;
+  line-height: 250%;
   display: block;
   text-align: center;
+  margin: 0;
 }
 
 .splash-screen {
@@ -155,18 +156,26 @@ hr {
   #cntrlRaios {
     margin-top: 20px;
     margin-bottom: 5px;
+    font-size: 180%;
+  }
+  #indice {
+    font-size: 150%;
   }
   #containerCirculo {
     margin-top: 20px;
   }
   #logoSol,#botaoConfig {
-    height: 50px;
+    height: 40px;
   }
   #titulo {
-    font-size: 180%;
+    font-size: 200%;
   }
   #textoOI {
+    font-size: 180%;
+  }
+  #textoBEMVINDO{
     font-size: 160%;
+    height: 68px;
   }
   #fotoIndiceUV {
     height: 35px;

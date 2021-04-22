@@ -38,20 +38,17 @@ hr {
   margin-top: 8px;
 }
 
-/*.espacoBranco {
-  margin: 10%;
-}*/
-
 #faixaManual {
   width: 100%;
   background-color: #90FF7E;
   font-family: 'Oswald';
-  font-size: 200%;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  font-size: 210%;
+  margin-top: 20px;
+  margin-bottom: 30px;
   text-align: center;
 }
 
+/*olá*/
 .h1Manual {
   text-align: justify;
   font-family: 'Oswald';
@@ -62,6 +59,7 @@ hr {
   margin-bottom: 0%;
 }
 
+/*VEJA OS PASSOS PARA UTILIZAR SUA PULSEIRA UV*/
 .h3Manual {
   text-align: justify;
   font-family: 'Oswald';
@@ -101,6 +99,9 @@ hr {
     height: 40px;
   }
   #titulo {
+    font-size: 200%;
+  }
+  #faixaManual {
     font-size: 180%;
   }
   #textoIndiceUV {
@@ -108,5 +109,14 @@ hr {
   }
   #fotoIndiceUV {
     height: 35px;
+  }
+  .h1Manual {
+    font-size: 30px;
+  }
+  .h3Manual {
+    font-size: 21px;
+  }
+  .textoManual {
+    font-size: 19px;
   }
 }
