@@ -64,12 +64,14 @@ hr {
 }
 
 .circuloIndicador {
+  display: flex;
+  justify-content: center;
+  margin-right: auto;
+  margin-left: auto;
   align-items: center;
   height: 180px;
   width: 180px;
   background-color: #fff;
-  display: flex;
-  justify-content: space-between;
   border: 15px double transparent;
   border-radius: 50%;
   background-image: linear-gradient(white, white), radial-gradient(circle at top , #FF2929, yellow,#90FF7E);
@@ -80,6 +82,9 @@ hr {
 
 #containerCirculo {
   margin-top: 40px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #numeroIndiceUV {
@@ -93,7 +98,8 @@ hr {
   background-color: #90FF7E;
     height: 70px;
     width: 70vw;
-    margin: 5px;
+    margin-left: auto;
+    margin-right: auto;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
