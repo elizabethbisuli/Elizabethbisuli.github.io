@@ -53,19 +53,24 @@ hr {
 }
 
 .circuloIndicador {
+  display: flex;
+  justify-content: center;
+  margin-right: auto;
+  margin-left: auto;
   height: 180px;
   width: 180px;
   background-color: #fff;
   border-radius: 50%;
-  display: flex;
   align-items: center;
-  justify-content: space-between;
   border-style: solid;
   border: 15px solid #90FF7E;
 }
 
 #containerCirculo {
   margin-top: 40px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #numeroIndiceUV {

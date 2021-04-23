@@ -56,12 +56,14 @@ hr {
 }
 
 .circuloIndicador {
+  display: flex;
+  justify-content: center;
+  margin-right: auto;
+  margin-left: auto;
   align-items: center;
   height: 180px;
   width: 180px;
   background-color: #fff;
-  display: flex;
-  justify-content: space-between;
   border: 15px double transparent;
   border-radius: 50%;
   background-image: linear-gradient(white, white), radial-gradient(circle at top , #FF2929, yellow,#90FF7E);
@@ -71,6 +73,16 @@ hr {
 
 #containerCirculo {
   margin-top: 40px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#containerCirculoTexto {
+  margin-top: 40px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #numeroIndiceUV {
@@ -139,7 +151,8 @@ hr {
   background-image: linear-gradient( 180deg, #FF2929 0%, #FF9029 25.52%, #FFEA29 48.96%, #C9F451 72.92%, #7AFF64 100%);
   background-origin: border-box;
   background-clip: content-box, border-box;
-  margin-left: 20px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #textoSUNDAY {
@@ -165,8 +178,21 @@ hr {
   #indice {
     font-size: 150%;
   }
-  #containerCirculo {
+  #containerCirculoTexto {
     margin-top: 20px;
+  }
+  #containerCirculo {
+    margin-top: 0px;
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+  .circulologo {
+    margin-right: 0px;
+    margin-left: 50px;
+  }
+  #textoSUNDAY {
+    margin-right: auto;
+    margin-left: 30px;
   }
   #logoSol,#botaoConfig {
     height: 40px;
